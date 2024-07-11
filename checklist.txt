@@ -1,0 +1,20 @@
+Basic inventory analysis:
+1. ABC analysis (done)
+2. VED analysis (monthly usage data of RM)
+3. EOQ analysis (annual demand-forecasting (2 years data), order cost-shipping fees, sales tax and 
+		     any interest your company incurs for credit purchases, storage cost-total investment your company makes in the inventory,
+		     insurance, taxes and any maintenance or security fees related to monitoring inventory goods)
+4. Demand Forecasting(2 years sales data)
+
+KPIs:
+1. Capacity utilization (actual output/ optimal output, need data for optimal machine output for shortlisted products.)
+2. OEE for the most used machine (need plaaned production hours, lost time, ideal cycle time(for 1 unit of procduct), ideal total time/total        					    time)
+3. Stockout rate (need data for no. of days an item is out of stock.)
+4. Order lead time (time btw placing an order and recieving the product.)
+
+
+Advanced inventory analysis:
+1. Safety stock analysis (need data for lead time, Safety stock = z-score*square root of ((average demand * lead time variability) + 					 (average lead time * demand variability)^2), z-score:customer satisfaction)
+2. Reorder point (Reorder point = (Average daily demand * Lead time) + Safety stock level)
+3. Stockout analysis (optional)
+
